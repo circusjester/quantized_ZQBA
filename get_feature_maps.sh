@@ -6,4 +6,4 @@ DATA_PATH='datasets'
 DATASET='CIFAR100'
 
 
-CUDA_VISIBLE_DEVICES=0 python3 get_feature_maps.py --feature-maps-path $FEATURE_PATH --model-type $MODEL_TYPE --model-path $MODEL_PATH --dataset $DATASET --data-root-path $DATA_PATH 
+CUDA_VISIBLE_DEVICES=0 python3 get_feature_maps.py --feature-maps-path $FEATURE_PATH --model-type $MODEL_TYPE --model-path $MODEL_PATH --dataset $DATASET --data-root-path $DATA_PATH
